@@ -1,0 +1,10 @@
+{
+  "extends": "@my-ds/tsconfig/react.json",
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "dist",
+    "rootDir": "src"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,17 +1,8 @@
-import {
-  Avatar,
-  AvatarFallback,
-  AvatarImage,
-  Badge,
-  Button,
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-  Input,
-} from '@my-ds/ui'
+import { Avatar, AvatarFallback, AvatarImage } from '@my-ds/avatar'
+import { Badge } from '@my-ds/badge'
+import { Button } from '@my-ds/button'
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle, } from '@my-ds/card'
+import { Input } from '@my-ds/input'
 
 function App() {
   return (

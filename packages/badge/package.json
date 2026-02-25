@@ -1,0 +1,34 @@
+{
+  "name": "@my-ds/badge",
+  "version": "0.0.0",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "eslint src/ --ext .ts,.tsx"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "dependencies": {
+    "@my-ds/utils": "workspace:*",
+    "class-variance-authority": "^0.7.0"
+  },
+  "devDependencies": {
+    "@my-ds/eslint-config": "workspace:*",
+    "@my-ds/tsconfig": "workspace:*",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.2"
+  }
+}

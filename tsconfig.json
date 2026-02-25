@@ -3,7 +3,12 @@
   "references": [
     { "path": "packages/tokens" },
     { "path": "packages/tailwind-config" },
-    { "path": "packages/ui" },
+    { "path": "packages/utils" },
+    { "path": "packages/button" },
+    { "path": "packages/badge" },
+    { "path": "packages/card" },
+    { "path": "packages/input" },
+    { "path": "packages/avatar" },
     { "path": "apps/demo" }
   ]
 }
