@@ -1,0 +1,13 @@
+{
+  "extends": "@my-ds/tsconfig/react.json",
+  "compilerOptions": {
+    "noEmit": true,
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"],
+  "references": [
+    { "path": "../../packages/tokens" },
+    { "path": "../../packages/tailwind-config" },
+    { "path": "../../packages/ui" }
+  ]
+}

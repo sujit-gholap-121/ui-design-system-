@@ -1,0 +1,24 @@
+{
+  "name": "@my-ds/tokens",
+  "version": "0.0.0",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "eslint src/ --ext .ts"
+  },
+  "devDependencies": {
+    "@my-ds/eslint-config": "workspace:*",
+    "@my-ds/tsconfig": "workspace:*",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.2"
+  }
+}
