@@ -6,6 +6,10 @@ export default {
   content: [
     './index.html',
     './src/**/*.{ts,tsx}',
-    '../../packages/ui/src/**/*.{ts,tsx}',
+    '../../packages/button/src/**/*.{ts,tsx}',
+    '../../packages/badge/src/**/*.{ts,tsx}',
+    '../../packages/card/src/**/*.{ts,tsx}',
+    '../../packages/input/src/**/*.{ts,tsx}',
+    '../../packages/avatar/src/**/*.{ts,tsx}',
   ],
 }

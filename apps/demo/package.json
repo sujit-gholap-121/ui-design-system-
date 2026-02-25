@@ -10,7 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@my-ds/ui": "workspace:*",
+    "@my-ds/avatar": "workspace:*",
+    "@my-ds/badge": "workspace:*",
+    "@my-ds/button": "workspace:*",
+    "@my-ds/card": "workspace:*",
+    "@my-ds/input": "workspace:*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
